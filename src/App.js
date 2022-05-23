@@ -11,7 +11,7 @@ import {useParams } from 'react-router';
 
 function App() {
   //const host = "http://localhost:8080";
-  const host = "ec2-54-160-229-14.compute-1.amazonaws.com:8080";
+  const host = "54.160.229.14:8080";
 
   const[username, setUsername] = useState();
   const[loggedIn, setLoggedIn] = useState(false);
